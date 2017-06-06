@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="productname">Product Name</string>
+    <string name="productdescription">Product Description</string>
+    <string name="Open_Camera">Open Camera</string>
+    <string name="Browse">Browse</string>
+    <string name="Send">Send</string>
+    <string name="address_name">Address Name : </string>
+    <string name="mobile">Mobile :</string>
+    <string name="Email_Company">Email :</string>
+    <string name="Location_Company">Location</string>
+    <string name="Your_Name">Your Name :</string>
+    <string name="Mobile_Phone">Mobile Phone</string>
+    <string name="Your_Message">Message Title : </string>
+    <string name="Your_Feedback">Message Body :</string>
+</resources>

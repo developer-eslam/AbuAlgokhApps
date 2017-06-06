@@ -1,0 +1,134 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="abualgokh.itqan.com.abualgokh.fragment.MaintanceFragment">
+
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/toolbar"
+
+
+        />
+
+    <LinearLayout
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+      <TextView
+        android:textStyle="bold"
+        android:textSize="@dimen/_15sdp"
+        android:paddingLeft="@dimen/_15sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtprodutcname"
+        android:text="@string/productname"
+        />
+
+    <EditText
+        android:layout_marginTop="@dimen/_5sdp"
+        android:paddingLeft="@dimen/_15sdp"
+        style="@style/Edittextstyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        />
+
+
+
+    <TextView
+        android:layout_marginTop="@dimen/_5sdp"
+        android:textStyle="bold"
+        android:textSize="@dimen/_15sdp"
+        android:paddingLeft="@dimen/_15sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtprodutcdescription"
+        android:text="@string/productdescription"
+        />
+
+    <EditText
+        android:layout_marginTop="@dimen/_5sdp"
+        android:paddingLeft="@dimen/_15sdp"
+        style="@style/Edittextstyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        />
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_weight="1"
+                android:id="@+id/imageview"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="match_parent"
+                >
+
+            </ImageView>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="0.1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btnopencamera"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_15sdp"
+                    android:padding="@dimen/_12sdp"
+                    android:text="@string/Open_Camera"
+                    android:textColor="@color/textbuttoncolorwhite"
+                    style="@style/ButtonStyle"
+                    android:layout_gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/btnbrowse"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_15sdp"
+                    android:padding="@dimen/_12sdp"
+                    android:text="@string/Browse"
+                    android:textColor="@color/textbuttoncolorwhite"
+                    style="@style/ButtonStyle"
+                    android:layout_gravity="right"
+                    android:layout_width="@dimen/_111sdp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+
+                android:textSize="@dimen/_25sdp"
+                android:textStyle="bold"
+                android:text="@string/Send"
+                android:gravity="center"
+                android:textColor="@color/textbuttoncolorwhite"
+                android:padding="@dimen/_15sdp"
+                style="@style/ButtonStyle"
+                android:layout_margin="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
